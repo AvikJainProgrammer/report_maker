@@ -1,0 +1,33 @@
+heading: "SOH And Ageing : Sachi mam-sack-noida // Brand Wise // {date}"
+
+# Optional type overrides (pandas already infers, but you can enforce)
+dtypes:
+  brand: str
+  Total_SOH_Qty: int
+  30_Days: int
+  60_Days: int
+  90_Days: int
+  180_Days: int
+  Above_181_Days: int
+  NON_GRN: int
+
+# Sorting rules (list preserves priority)
+sort:
+  - column: Total_SOH_Qty
+    ascending: false
+
+# Formatting rules
+formatting:
+  header:
+    bg: "#333333"
+    fg: "#ffffff"
+  rows:
+    TOTAL:
+      bg: "#800080"
+      fg: "#ffffff"
+  columns:
+    brand:
+      bg: "#f0f0f0"
+      fg: "#000000"
+    Total_SOH_Qty:
+      fg: "#006400"  # dark green

@@ -1,6 +1,9 @@
 # 🔐 Ignore sensitive credentials
 credentials.py
 
+# Ignore temporary development file
+temp.py
+
 # 🐍 Python bytecode and cache
 __pycache__/
 *.py[cod]
