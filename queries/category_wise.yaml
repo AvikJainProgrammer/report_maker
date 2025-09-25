@@ -12,7 +12,7 @@ dtypes:
   NON_GRN: int
 
 sort:
-  - column: Total_SOH_Qty
+  - column: category
     ascending: false
 
 formatting:
