@@ -1,0 +1,54 @@
+# 🔐 Ignore sensitive credentials
+credentials.py
+
+# 🐍 Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 📦 Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.pipenv/
+
+# 📁 Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 🧪 Test and coverage outputs
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+.pytest_cache/
+
+# 🧠 MyPy and other static analysis
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# 🧰 IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 📄 Logs and temp files
+*.log
+*.tmp
+
+# 📚 Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# 🧪 Environment variables
+.env
+.env.*
+
+# 🚫 System files
+.DS_Store
+Thumbs.db
