@@ -1,8 +1,7 @@
-heading: "SOH And Ageing : Sachi mam-sack-noida // Brand Wise // {date}"
+heading: "SOH And Ageing : Sachi mam-sack-noida // Season Wise // {date}"
 
-# Optional type overrides (pandas already infers, but you can enforce)
 dtypes:
-  brand: str
+  season: str
   Total_SOH_Qty: int
   30_Days: int
   60_Days: int
@@ -11,12 +10,10 @@ dtypes:
   Above_181_Days: int
   NON_GRN: int
 
-# Sorting rules (list preserves priority)
 sort:
   - column: Total_SOH_Qty
     ascending: false
 
-# Formatting rules
 formatting:
   header:
     bg: "#333333"
@@ -25,4 +22,3 @@ formatting:
     TOTAL:
       bg: "#800080"
       fg: "#ffffff"
-
