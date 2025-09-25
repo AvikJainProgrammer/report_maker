@@ -4,6 +4,7 @@ credentials.py
 # Ignore temporary development file
 temp.py
 queries_temp/
+output_images_temp/
 
 # 🐍 Python bytecode and cache
 __pycache__/
